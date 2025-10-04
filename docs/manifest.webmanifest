@@ -1,8 +1,8 @@
 {
   "name": "YouTube 必須視聴 & 通知ランチャー",
   "short_name": "YT Lock",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/enjoybeginners2/",
+  "scope": "/enjoybeginners2",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#111827",
