@@ -632,8 +632,11 @@
 
     // ===== Service Worker登録 =====
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js").catch(console.warn);
-    }
+  navigator.serviceWorker.register("sw.js") // ./ は不要
+    .then(() => console.log("SW registered"))
+    .catch(console.warn);
+}
+
 
     // ===== 共有経由で起動されたときの処理（URL パラメータ ?shared=... を読む） =====
     function getQueryParam(name){
